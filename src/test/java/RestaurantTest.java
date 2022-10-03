@@ -79,7 +79,7 @@ class RestaurantTest {
         double costOfOrder= restaurant.calculateOrderValue(item1,item2);
          assertTrue(costOfOrder>0);
     }
-
+    //Part 3: Solution
     @Test
     public void calculate_order_should_display_an_error_if_the_cost_of_the_order_is_less_than_or_equal_to_zero(){
         restaurant.addToMenu("Tangy hot tomato soup", 0);

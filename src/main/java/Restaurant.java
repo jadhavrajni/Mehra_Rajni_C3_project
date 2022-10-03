@@ -76,7 +76,7 @@ public class Restaurant {
         return name;
     }
 
-
+    //Part 3: Solution
 public double calculateOrderValue(String name1, String name2) {
     Item item1 = findItemByName(name1);
     Item item2 = findItemByName(name2);
