@@ -6,6 +6,7 @@ import java.util.Objects;
 public class RestaurantService {
     private static List<Restaurant> restaurants = new ArrayList<>();
 
+    // Part2- methods implemented
     public Restaurant findRestaurantByName(String restaurantName) throws restaurantNotFoundException {
        //    return null;
         //DELETE ABOVE STATEMENT AND WRITE CODE HERE
@@ -34,8 +35,5 @@ public class RestaurantService {
         return restaurants;
     }
 
-    //public double calculateOrder(){
-
-    //}
 
 }

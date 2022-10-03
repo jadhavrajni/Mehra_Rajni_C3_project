@@ -22,6 +22,7 @@ class RestaurantServiceTest {
 }
 
     //>>>>>>>>>>>>>>>>>>>>>>SEARCHING<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    // Part 2: Solution
     @Test
     public void searching_for_existing_restaurant_should_return_expected_restaurant_object() throws restaurantNotFoundException {
         //WRITE UNIT TEST CASE HERE
@@ -30,11 +31,11 @@ class RestaurantServiceTest {
     }
 
     //You may watch the video by Muthukumaran on how to write exceptions in Course 3: Testing and Version control: Optional content
+    // Part 3: Failing test case
     @Test
     public void searching_for_non_existing_restaurant_should_throw_exception() throws restaurantNotFoundException {
         //WRITE UNIT TEST CASE HERE
 
-       //assertThrows(restaurantNotFoundException.class,()->service.findRestaurantByName("ABCD"));
         Restaurant searchRestaurant= service.findRestaurantByName("ABCD");
     }
     //<<<<<<<<<<<<<<<<<<<<SEARCHING>>>>>>>>>>>>>>>>>>>>>>>>>>
